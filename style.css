@@ -8,45 +8,54 @@ body {
     background-color: rgb(181, 230, 242);
 }
 
-.container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-}
-
-.login-box {
-    position: relative;
-    width: 500px;
-    padding: 40px;
-    background-color:rgb(246, 165, 107);
-    border-radius: 8px;
+h1, p, h2 {
+    margin: 1em auto;
     text-align: center;
   }
-
-
-.login-box h2 {
-    margin-bottom: 20px;
-    font-size: 30px;
-}
-
-
-.login-box input {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid;
-    margin-bottom: 10px;
-}
-.login-box button {
-    width: 100%;
-    padding: 10px;
+  
+  form {
+    width: 60vw;
+    max-width: 500px;
+    min-width: 300px;
+    margin: 0 auto;
+    padding-bottom: 2em;
+  }
+  
+  fieldset {
     border: none;
-    border-radius: 8px;
-    cursor: pointer;
-}
-
-.login-box p {
-    font-size: 18px;
-    margin-top: 20px;
-    cursor: pointer;
+    padding: 2rem 0;
+    border-bottom: 3px solid #3b3b4f;
+  }
+  .header {
+    text-align: center;
+    text-transform: uppercase;
+    padding: 32px;
+    background-color: #0a0a23;
+    color: #fff;
+    border-bottom: 4px solid #fdb347;
+  }
+  
+  .gallery {
+    display: flex;
+    text-align: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 20px 10px;
+  }
+.about{
+    display:flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}  
+input,
+textarea                                                {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
 }
